@@ -103,7 +103,7 @@ export default function Home() {
           the factory price through domestic distributors. That stops here.
         </p>
 
-        <div className="sol-nums">
+        <div className="sol-nums" style={{ marginBottom: 40 }}>
           <div className="sol-num">
             <span className="sol-num-n">20–25%</span>
             <div className="sol-num-l">
@@ -126,6 +126,14 @@ export default function Home() {
               Factory to your job site.
               <br />
               No import brokers. No markup.
+            </div>
+          </div>
+          <div className="sol-num">
+            <span className="sol-num-n">3–4×</span>
+            <div className="sol-num-l">
+              The markup you&apos;re currently paying
+              <br />
+              through domestic distributors
             </div>
           </div>
         </div>
@@ -288,14 +296,14 @@ export default function Home() {
           <div className="itin">
             {[
               {
-                cls: "s",
+                cls: "ir-s",
                 day: "Day 1",
                 date: "May 30",
                 loc: "HCMC — Arrive",
                 chips: [["Arrival + Orientation dinner", true]] as [string, boolean][],
               },
               {
-                cls: "s",
+                cls: "ir-s",
                 day: "Day 2",
                 date: "May 31",
                 loc: "Binh Duong",
@@ -305,7 +313,7 @@ export default function Home() {
                 ] as [string, boolean][],
               },
               {
-                cls: "s",
+                cls: "ir-s",
                 day: "Day 3",
                 date: "Jun 1",
                 loc: "Binh Duong + Long An",
@@ -316,7 +324,7 @@ export default function Home() {
                 ] as [string, boolean][],
               },
               {
-                cls: "s",
+                cls: "ir-s",
                 day: "Day 4",
                 date: "Jun 2",
                 loc: "HCMC — Flex",
@@ -326,7 +334,7 @@ export default function Home() {
                 ] as [string, boolean][],
               },
               {
-                cls: "t",
+                cls: "ir-t",
                 day: "Day 5",
                 date: "Jun 3",
                 loc: "Fly → Hanoi",
@@ -336,7 +344,7 @@ export default function Home() {
                 ] as [string, boolean][],
               },
               {
-                cls: "n",
+                cls: "ir-n",
                 day: "Day 6",
                 date: "Jun 4",
                 loc: "Bac Ninh + Vinh Phuc + Hanoi",
@@ -347,7 +355,7 @@ export default function Home() {
                 ] as [string, boolean][],
               },
               {
-                cls: "n",
+                cls: "ir-n",
                 day: "Day 7",
                 date: "Jun 5",
                 loc: "Hai Phong",
@@ -387,8 +395,7 @@ export default function Home() {
         </h2>
         <div className="rule"></div>
         <p className="lead">
-          Every stop independently researched. ★ = non-negotiable. Click any
-          row for details.
+          We know them all. ★ = non-negotiable. Click any row for details.
         </p>
         <div className="fac-leg">
           <div className="leg">
@@ -435,7 +442,6 @@ export default function Home() {
             <div className="host-photo">MM</div>
             <h3 className="host-name">Minh Mac</h3>
             <div className="host-role">Founder · 100B</div>
-            <div className="host-phone">+1-757-773-5707</div>
             <a href="mailto:global@100b.co" className="host-email">
               global@100b.co
             </a>
@@ -453,7 +459,6 @@ export default function Home() {
             <div className="host-photo">LT</div>
             <h3 className="host-name">Lezlie Tram</h3>
             <div className="host-role">CEO · LT Commercial Group</div>
-            <div className="host-phone">&nbsp;</div>
             <a
               href="mailto:lezlie@ltcommercialgroup.com"
               className="host-email"

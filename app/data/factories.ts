@@ -23,7 +23,6 @@ export const regions: Region[] = [
         cat: "Interior Panels · SPC Flooring · Wall Panels · Doors",
         loc: "Binh Duong",
         stars: 5,
-        must: true,
         stats: [
           { label: "Est. Revenue", value: "~$145M", gold: true },
           { label: "Factory", value: "240,000 m²" },
@@ -44,7 +43,6 @@ export const regions: Region[] = [
         cat: "Aluminum-Glass Facades · Curtain Walls · Unitized Panels",
         loc: "Binh Duong",
         stars: 5,
-        must: true,
         stats: [
           { label: "Est. Revenue", value: "~$120M+", gold: true },
           { label: "Capacity", value: "2M m²/yr" },
@@ -64,7 +62,7 @@ export const regions: Region[] = [
         small: "Binh Duong / Dong Nai",
         cat: "Kitchen Cabinets · Wood Furniture · Quartz Stone",
         loc: "Binh Duong / Dong Nai",
-        stars: 4,
+        stars: 5,
         must: true,
         stats: [
           { label: "Est. Revenue", value: "$100M+", gold: true },
@@ -84,7 +82,7 @@ export const regions: Region[] = [
         small: "Long An",
         cat: "Prefab Steel Structures · Fabrication · EPC",
         loc: "Long An (~40 min)",
-        stars: 4,
+        stars: 5,
         must: true,
         stats: [
           { label: "Est. Revenue", value: "~$80–100M", gold: true },
@@ -144,7 +142,7 @@ export const regions: Region[] = [
         small: "Hanoi",
         cat: "Aluminum + uPVC Windows/Doors · Curtain Walls · Timber Doors",
         loc: "Hanoi",
-        stars: 5,
+        stars: 4,
         must: true,
         stats: [
           { label: "Est. Revenue", value: "~$200M", gold: true },
@@ -183,7 +181,8 @@ export const regions: Region[] = [
         small: "Vinh Phuc",
         cat: "Tile · SPC/LVT Flooring · WPC Decking · Wall Panels",
         loc: "Vinh Phuc (~45 min)",
-        stars: 4,
+        stars: 5,
+        must: true,
         stats: [
           { label: "Est. Revenue", value: "~$80–120M", gold: true },
           { label: "Founded", value: "2015" },
