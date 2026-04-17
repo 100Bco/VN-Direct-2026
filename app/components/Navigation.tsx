@@ -43,10 +43,27 @@ export default function Navigation() {
       </div>
 
       <nav aria-label="Primary">
-        <div className="nav-brand">
-          Vietnam Direct 2026
-          <small>Build Better Series</small>
-        </div>
+        <a href="#" className="nav-brand" aria-label="Vietnam Direct 2026 — 100B × LT Commercial Group">
+          <span className="nav-logos">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/hosts/100B%20-%20TACH%20NEN%20-1.png"
+              alt="100B"
+              className="nav-logo"
+            />
+            <span className="nav-logo-x" aria-hidden="true">×</span>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/hosts/LOGO%20LT%20COMMERCIAL.png"
+              alt="LT Commercial Group"
+              className="nav-logo"
+            />
+          </span>
+          <span className="nav-brand-text">
+            Vietnam Direct 2026
+            <small>Build Better Series</small>
+          </span>
+        </a>
         <ul className="nav-links">
           <li><a href="#problem">Problem</a></li>
           <li><a href="#solution">Opportunity</a></li>

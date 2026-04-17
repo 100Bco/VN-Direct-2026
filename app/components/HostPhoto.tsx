@@ -6,16 +6,14 @@ export default function HostPhoto({
   src,
   alt,
   initials,
-  variant = "photo",
 }: {
   src: string;
   alt: string;
   initials: string;
-  variant?: "photo" | "logo";
 }) {
   const [failed, setFailed] = useState(false);
   return (
-    <div className={`host-photo${variant === "logo" ? " is-logo" : ""}`}>
+    <div className="host-photo">
       {failed ? (
         initials
       ) : (

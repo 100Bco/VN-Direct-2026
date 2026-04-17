@@ -11,8 +11,12 @@ body{font-family:'Instrument Sans',sans-serif;background:var(--black);color:var(
 
 /* NAV */
 nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:14px 40px;background:rgba(10,10,8,0.93);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);}
-.nav-brand{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:700;color:var(--gold-lt);line-height:1.2;}
+.nav-brand{display:flex;align-items:center;gap:14px;font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:700;color:var(--gold-lt);line-height:1.2;text-decoration:none;}
 .nav-brand small{display:block;font-family:'Instrument Sans',sans-serif;font-size:9px;font-weight:500;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);margin-top:2px;}
+.nav-logos{display:inline-flex;align-items:center;gap:8px;}
+.nav-logo{height:28px;width:auto;object-fit:contain;display:block;}
+.nav-logo-x{font-family:'Instrument Sans',sans-serif;font-size:12px;color:var(--gold-dim);font-weight:300;}
+.nav-brand-text{display:flex;flex-direction:column;border-left:1px solid var(--border);padding-left:14px;}
 .nav-links{display:flex;gap:24px;list-style:none;}
 .nav-links a{font-size:11px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color .2s;}
 .nav-links a:hover{color:var(--gold-lt);}
@@ -163,8 +167,6 @@ section{padding:80px 40px;}
 .host-card{background:var(--card);padding:44px 32px;text-align:center;border-top:2px solid var(--gold-border);}
 .host-photo{width:112px;height:112px;border-radius:50%;margin:0 auto 20px;overflow:hidden;border:2px solid var(--gold-dim);background:var(--card2);display:flex;align-items:center;justify-content:center;font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:700;color:rgba(196,152,42,0.4);}
 .host-photo img{width:100%;height:100%;object-fit:cover;border-radius:50%;}
-.host-photo.is-logo{background:var(--black);border-color:var(--gold-border);padding:14px;}
-.host-photo.is-logo img{object-fit:contain;border-radius:0;}
 .host-name{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:700;color:var(--white);margin-bottom:4px;}
 .host-role{font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:22px;}
 .host-email{display:block;font-size:15px;font-weight:500;color:var(--gold-lt);text-decoration:none;margin-bottom:16px;}
@@ -197,6 +199,9 @@ footer{padding:22px 40px;border-top:1px solid var(--border);display:flex;align-i
 @media(max-width:768px){
   nav{padding:12px 18px;}
   .nav-links,.nav-cta{display:none;}
+  .nav-brand{gap:10px;}
+  .nav-logo{height:22px;}
+  .nav-brand-text{display:none;}
   .hamburger{display:flex;}
   .hero{padding:90px 20px 60px;}
   .h-kick{font-size:17px;}

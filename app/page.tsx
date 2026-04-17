@@ -441,10 +441,9 @@ export default function Home() {
         <div className="hosts-grid">
           <article className="host-card">
             <HostPhoto
-              src="/images/hosts/100B%20-%20TACH%20NEN%20-1.png"
-              alt="100B logo"
-              initials="100B"
-              variant="logo"
+              src="/images/hosts/minh.jpg"
+              alt="Minh Mac"
+              initials="MM"
             />
             <h3 className="host-name">Minh Mac</h3>
             <div className="host-role">Founder · 100B</div>
@@ -463,10 +462,9 @@ export default function Home() {
           </article>
           <article className="host-card">
             <HostPhoto
-              src="/images/hosts/LOGO%20LT%20COMMERCIAL.png"
-              alt="LT Commercial Group logo"
-              initials="LTCG"
-              variant="logo"
+              src="/images/hosts/lezlie.jpg"
+              alt="Lezlie Tram"
+              initials="LT"
             />
             <h3 className="host-name">Lezlie Tram</h3>
             <div className="host-role">CEO · LT Commercial Group</div>
