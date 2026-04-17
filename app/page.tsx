@@ -1,5 +1,6 @@
 import Navigation from "./components/Navigation";
 import FactoryList from "./components/FactoryList";
+import HostPhoto from "./components/HostPhoto";
 
 export default function Home() {
   return (
@@ -439,7 +440,7 @@ export default function Home() {
         <div className="rule"></div>
         <div className="hosts-grid">
           <article className="host-card">
-            <div className="host-photo">MM</div>
+            <HostPhoto src="/images/hosts/minh.jpg" alt="Minh Mac" initials="MM" />
             <h3 className="host-name">Minh Mac</h3>
             <div className="host-role">Founder · 100B</div>
             <a href="mailto:global@100b.co" className="host-email">
@@ -456,7 +457,7 @@ export default function Home() {
             </a>
           </article>
           <article className="host-card">
-            <div className="host-photo">LT</div>
+            <HostPhoto src="/images/hosts/lezlie.jpg" alt="Lezlie Tram" initials="LT" />
             <h3 className="host-name">Lezlie Tram</h3>
             <div className="host-role">CEO · LT Commercial Group</div>
             <a
