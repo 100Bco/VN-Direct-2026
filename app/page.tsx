@@ -441,7 +441,7 @@ export default function Home() {
         <div className="hosts-grid">
           <article className="host-card">
             <HostPhoto
-              src="/images/hosts/minh.jpg"
+              src="/images/hosts/Minh%20Mac%20CEO.jpeg"
               alt="Minh Mac"
               initials="MM"
             />
@@ -462,7 +462,7 @@ export default function Home() {
           </article>
           <article className="host-card">
             <HostPhoto
-              src="/images/hosts/lezlie.jpg"
+              src="/images/hosts/Lezlie.jpg"
               alt="Lezlie Tram"
               initials="LT"
             />
