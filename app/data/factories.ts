@@ -134,7 +134,7 @@ export const regions: Region[] = [
     ],
   },
   {
-    label: "North — Hanoi Hub · Jun 3 – Jun 5",
+    label: "North — Hanoi Hub · Jun 3 – Jun 6",
     factories: [
       {
         num: "07",

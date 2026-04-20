@@ -4,7 +4,7 @@ import "./globals.css";
 const SITE_URL = "https://vietnamdirect2026.com";
 const TITLE = "Vietnam Direct 2026 — Build Better Series";
 const DESCRIPTION =
-  "By-invitation factory sourcing trip, May 30 – June 5, 2026. 7 days, 12 hand-picked Vietnamese factories across Ho Chi Minh City and Hanoi. Cut 20–25% off your materials cost sheet by going direct — no middlemen. Hosted by 100B × LT Commercial Group.";
+  "By-invitation factory sourcing trip, May 30 – June 6, 2026. 12 hand-picked Vietnamese factories across Ho Chi Minh City and Hanoi. $3,250 per person (flights not included). Optional add-on Jun 6–7 sightseeing in Hanoi and Ha Long Bay with the Greater Austin Asian Chamber of Commerce. Cut 20–25% off your materials cost sheet by going direct — no middlemen. Hosted by 100B × LT Commercial Group.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -93,7 +93,7 @@ const jsonLd = {
       name: "Vietnam Direct 2026 — Build Better Series",
       description: DESCRIPTION,
       startDate: "2026-05-30",
-      endDate: "2026-06-05",
+      endDate: "2026-06-06",
       eventStatus: "https://schema.org/EventScheduled",
       eventAttendanceMode: "https://schema.org/OfflineEventAttendanceMode",
       url: SITE_URL,
@@ -135,6 +135,10 @@ const jsonLd = {
         availability: "https://schema.org/LimitedAvailability",
         url: `${SITE_URL}#apply`,
         category: "InvitationOnly",
+        price: "3250",
+        priceCurrency: "USD",
+        description:
+          "Includes ground transportation, meals, hotels (7 nights) and miscellaneous expenses. Flights not included.",
       },
       audience: {
         "@type": "BusinessAudience",
@@ -165,7 +169,15 @@ const jsonLd = {
           name: "When is Vietnam Direct 2026?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "May 30 to June 5, 2026. 7 days across Ho Chi Minh City and Hanoi.",
+            text: "May 30 to June 6, 2026, across Ho Chi Minh City and Hanoi. An optional 1–2 day extension on June 6–7 offers sightseeing and a meetup with the Greater Austin Asian Chamber of Commerce in Hanoi and Ha Long Bay.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How much does it cost?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "$3,250 per person. Includes ground transportation, meals, hotels (7 nights) and miscellaneous expenses. Flights are not included.",
           },
         },
         {
