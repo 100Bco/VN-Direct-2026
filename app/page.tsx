@@ -290,9 +290,9 @@ export default function Home() {
             <div className="trip-box trip-cost">
               <span className="trip-box-l">Cost</span>
               <div className="trip-box-v">
-                <strong>$3,250 per person.</strong> Includes ground
-                transportation, meals, hotels (7 nights) and miscellaneous
-                expenses. Flights are not included.
+                <strong>$3,550 per person.</strong> Includes domestic flights,
+                ground transportation, meals, hotels (7 nights) and
+                miscellaneous expenses. International flights are not included.
               </div>
             </div>
 

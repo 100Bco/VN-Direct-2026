@@ -4,7 +4,7 @@ import "./globals.css";
 const SITE_URL = "https://vietnamdirect2026.com";
 const TITLE = "Vietnam Direct 2026 — Build Better Series";
 const DESCRIPTION =
-  "By-invitation factory sourcing trip, May 30 – June 6, 2026. 12 hand-picked Vietnamese factories across Ho Chi Minh City and Hanoi. $3,250 per person (flights not included). Optional add-on Jun 6–7 sightseeing in Hanoi and Ha Long Bay with the Greater Austin Asian Chamber of Commerce. Cut 20–25% off your materials cost sheet by going direct — no middlemen. Hosted by 100B × LT Commercial Group.";
+  "By-invitation factory sourcing trip, May 30 – June 6, 2026. 12 hand-picked Vietnamese factories across Ho Chi Minh City and Hanoi. $3,550 per person — includes domestic flights, ground transport, meals, and 7 nights hotel; international flights not included. Optional add-on Jun 6–7 sightseeing in Hanoi and Ha Long Bay with the Greater Austin Asian Chamber of Commerce. Cut 20–25% off your materials cost sheet by going direct — no middlemen. Hosted by 100B × LT Commercial Group.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -135,10 +135,10 @@ const jsonLd = {
         availability: "https://schema.org/LimitedAvailability",
         url: `${SITE_URL}#apply`,
         category: "InvitationOnly",
-        price: "3250",
+        price: "3550",
         priceCurrency: "USD",
         description:
-          "Includes ground transportation, meals, hotels (7 nights) and miscellaneous expenses. Flights not included.",
+          "Includes domestic flights, ground transportation, meals, hotels (7 nights) and miscellaneous expenses. International flights are not included.",
       },
       audience: {
         "@type": "BusinessAudience",
@@ -177,7 +177,7 @@ const jsonLd = {
           name: "How much does it cost?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "$3,250 per person. Includes ground transportation, meals, hotels (7 nights) and miscellaneous expenses. Flights are not included.",
+            text: "$3,550 per person. Includes domestic flights, ground transportation, meals, hotels (7 nights) and miscellaneous expenses. International flights are not included.",
           },
         },
         {
