@@ -105,6 +105,16 @@ section{padding:80px 40px;}
 .t-note{padding:13px 16px;border:1px solid var(--gold-border);background:var(--gold-bg);margin-top:14px;}
 .t-note p{font-size:12px;color:var(--gold);font-style:italic;line-height:1.5;}
 
+/* Cost + Add-on boxes */
+.trip-box{background:var(--card);padding:16px 18px;margin-top:10px;border-left:2px solid var(--gold);display:flex;flex-direction:column;gap:8px;}
+.trip-box.trip-addon{border-left-color:var(--gold-lt);}
+.trip-box-l{font-size:9px;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);}
+.trip-box.trip-addon .trip-box-l{color:var(--gold-lt);}
+.trip-box-v{font-size:13px;font-weight:300;color:var(--cream2);line-height:1.6;}
+.trip-box-v strong{color:var(--white);font-weight:600;}
+.trip-box-link{display:inline-block;margin-top:6px;font-size:12px;font-weight:600;letter-spacing:0.5px;color:var(--gold-lt);text-decoration:none;border-bottom:1px solid var(--gold-dim);padding-bottom:1px;transition:color .2s,border-color .2s;}
+.trip-box-link:hover{color:var(--gold);border-color:var(--gold);}
+
 /* ITINERARY */
 .itin{display:flex;flex-direction:column;gap:1px;width:100%;}
 .ir{display:flex;width:100%;background:var(--card);border-left:3px solid #252520;min-height:70px;}

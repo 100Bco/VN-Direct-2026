@@ -13,7 +13,7 @@ export default function Home() {
         <div className="h-series">
           Build Better Series · 100B × LT Commercial Group · By Invitation Only
         </div>
-        <div className="h-tag">May 30 – June 5, 2026</div>
+        <div className="h-tag">May 30 – June 6, 2026</div>
         <h1 className="h-title">
           VIETNAM
           <br />
@@ -273,7 +273,7 @@ export default function Home() {
             </p>
             <div className="trip-meta">
               {[
-                ["Dates", "May 30 – June 5, 2026"],
+                ["Dates", "May 30 – June 6, 2026"],
                 ["Fly Into", "Ho Chi Minh City (SGN)"],
                 ["Fly Out", "Hanoi (HAN)"],
                 ["Stops", "12 curated factories"],
@@ -286,6 +286,33 @@ export default function Home() {
                 </div>
               ))}
             </div>
+
+            <div className="trip-box trip-cost">
+              <span className="trip-box-l">Cost</span>
+              <div className="trip-box-v">
+                <strong>$3,550 per person.</strong> Includes domestic flights,
+                ground transportation, meals, hotels (7 nights) and
+                miscellaneous expenses. International flights are not included.
+              </div>
+            </div>
+
+            <div className="trip-box trip-addon">
+              <span className="trip-box-l">Optional Add-On</span>
+              <div className="trip-box-v">
+                Extend <strong>1–2 days of sightseeing</strong> and hang out
+                with the <strong>Greater Austin Asian Chamber of Commerce</strong>{" "}
+                on <strong>Jun 6–7</strong> in Hanoi and Ha Long Bay.{" "}
+                <a
+                  href="https://austin2vietnam.100b.co/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="trip-box-link"
+                >
+                  View GAACC trip →
+                </a>
+              </div>
+            </div>
+
             <div className="t-note">
               <p>
                 ★ Detailed itinerary in development. All factory stops subject
@@ -363,6 +390,16 @@ export default function Home() {
                 chips: [
                   ["An Phat Holdings", true],
                   ["Tien Phong", false],
+                ] as [string, boolean][],
+              },
+              {
+                cls: "ir-t",
+                day: "Day 8",
+                date: "Jun 6",
+                loc: "Hanoi — Depart / Optional Ha Long Bay",
+                chips: [
+                  ["Departure", false],
+                  ["Optional: GAACC add-on Jun 6–7", true],
                 ] as [string, boolean][],
               },
             ].map((r) => (
